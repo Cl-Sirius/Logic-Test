@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/helpScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:isScrollContainer="true"
+                android:text="Обучение"
+                android:textAlignment="center"
+                android:textSize="50dp"
+                android:textColor="@color/design_default_color_secondary_variant" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="  Цель игры: выставить все детали на игровое поле."
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="  Правила: у деталей есть отверстия, а на поле есть точки соответсвующего цвета. Деталь можно поставить в случае, если её ''целые'' части не пересекатся с точками на поле, а её части с отверстиями становятся либо на точку такого-же цвета, либо на пустую клетку."
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="  Как играть: для выбора детали нужно нажать на неё, после чего она подстветится чёрным цветом. Выбрав деталь, можно нажать на неё ещё раз, чтобы повернуть, либо перетянуть на поле. Деталь будет отображаться на поле, если её постановка в это место возможна. В случае, если вам нужно начать с начала, нажмите на название уровня."
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="30dp"
+                android:text="  Автор: Гусев Юрий, ученик Samsung IT школы города Новосибирск." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textSize="40dp"
+                android:layout_marginBottom="100dp"
+                android:text="Удачой игры!"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:text="2022"
+                android:textColor="@color/design_default_color_secondary_variant" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
